@@ -18,7 +18,7 @@ mongoose.connect(process.env.DB_URL);
 const app = express();
 app.use(cors());
 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 app.get('/book', getBooks);
 
