@@ -11,7 +11,7 @@ async function seed() {
   await Book.create({
     title: 'Harry Potter',
     description: 'Fantasy',
-    status: 'Not Available',
+    status: 'Available',
   });
   console.log('Harry Potter was added')
 
@@ -25,7 +25,7 @@ async function seed() {
   await Book.create({
     title: 'The Talented Mr. Ripley',
     description: 'Crime/Thriller',
-    status: 'Available',
+    status: 'Unavailable',
   });
   console.log('The Talented Mr. Ripley was added')
 

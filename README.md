@@ -21,4 +21,22 @@
 <!-- See below -->
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+Logistical
+
+- Communication time: noon-6pm;
+- Platform: Slack;
+- Breaks: whenever is needed;
+- If falling behind: communicate, let the issues be known, help each other out, talk to TA's
+
+Cooperative
+
+- Strengths: Miranda: JS, time-management, Cody: JS, CSS
+- Utilize the strengths: communicate and help each other out when there's any confusion
+- Development: Miranda: API requests practice; Cody: back-end API requests
+- Day-to-day development: have a quick meeting about the day and ask if there's any confusion;
+
+Conflict Resolution
+
+- Let it be known and speak to the other person, make sure no one is slacking off or taking over the project
+- Speak up and ask for help, use the resources available in class
