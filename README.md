@@ -1,24 +1,38 @@
 # Can of Books (backend)
 
 **Author**: Team Member Names Goes Here
-**Version**: 1.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+**Version**: 1.1.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This is the backend for the can of books project. The backend is connected to MongoDB and send the data accordingly to the front end upon clients request. It has the ability to add, delete, and view data as of Mar-14-2023. 
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+Node JS and React, the framework used was Express. 
 
 ## Architecture
 <!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+The backend and the front end communicate via Axios. 
 
 ## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+03-14-2023 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource.
+01-01-2001 4:59pm - Application now has a GET/POST/DELETE route for the location resource.
 
 ## Estimates
 <!-- See below -->
+
+Name of feature: DELETE and POST
+
+Estimate of time needed to complete: 4 hours
+
+Start time: 1300
+
+Finish time: 1700
+
+Actual time needed to complete: 4hours
 
 ## Credit and Collaborations
 
