@@ -31,6 +31,7 @@ app.post('/book',postBooks);
 // ONLY delete books by ID, :/id is the path parameter
 // note the diff btn req.params(path parameter) vs. req.query (asking for val)
 app.delete('/book/:id',deleteBooks);
+app.put('/book/:id', putBooks);
 
 async function getBooks(req, res, next) {
   try {
@@ -62,6 +63,20 @@ async function deleteBooks(req, res, next) {
     res.status(200).send('Book Deleted');
   }
   catch(err) {
+    next(err)
+  }
+}
+
+async function putBooks(req, res, next) {
+  try{
+    let id = req.params.id;
+    let updatedBookFromDb = req.body;
+    //findByIdAndUpdate takes in 3 arguments
+    // id of what's to be updated; updated data object; options object
+    let updateBook = await Book.findByIdAndUpdate(id, updatedBookFromDb, {new: true, overwrite: true})
+    res.status(200).send(updateBook);
+  }
+  catch (err){
     next(err)
   }
 }
