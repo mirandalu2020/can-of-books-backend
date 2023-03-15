@@ -74,6 +74,7 @@ async function putBooks(req, res, next) {
     //findByIdAndUpdate takes in 3 arguments
     // id of what's to be updated; updated data object; options object
     let updateBook = await Book.findByIdAndUpdate(id, updatedBookFromDb, {new: true, overwrite: true})
+    console.log(updateBook)
     res.status(200).send(updateBook);
   }
   catch (err){
