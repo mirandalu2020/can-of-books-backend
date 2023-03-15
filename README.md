@@ -2,7 +2,7 @@
 
 **Author**: Team Member Names Goes Here
 
-**Version**: 1.1.0 (increment the patch/fix version number if you make more commits past your first submission)
+**Version**: 1.2.0 (increment the patch/fix version number if you make more commits past your first submission)
 
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
@@ -25,14 +25,16 @@ The backend and the front end communicate via Axios.
 <!-- See below -->
 
 Name of feature: DELETE and POST
-
 Estimate of time needed to complete: 4 hours
-
 Start time: 1300
-
 Finish time: 1700
-
 Actual time needed to complete: 4hours
+
+Name of feature: PUT
+Estimate of time needed to complete: 2.5 hours
+Start time: 1200
+Finish time: 1500
+Actual time needed to complete: 3 hours
 
 ## Credit and Collaborations
 
